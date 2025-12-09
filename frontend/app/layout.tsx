@@ -67,7 +67,7 @@ export default function RootLayout({
           <footer className="bg-gray-900 text-gray-400 text-center py-6">
             <div className="flex justify-center space-x-6 mb-4">
               <a 
-                href="https://www.instagram.com/ggtaxpreparationservices/" 
+                href="https://www.instagram.com/ggtaxservices_/" 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="hover:text-green-400 transition-colors"

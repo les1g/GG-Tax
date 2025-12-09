@@ -15,7 +15,7 @@ export default function Pricing() {
         <div className="space-y-8">
           <div className="border border-gray-700 rounded bg-gray-800 p-6">
             <h3 className="text-xl font-semibold text-green-400 mb-2">Individual Tax Return</h3>
-            <p className="text-gray-300 mb-2">Starting at <span className="text-white font-bold">$125</span></p>
+            <p className="text-gray-300 mb-2">Starting at <span className="text-white font-bold">$100</span></p>
             <ul className="list-disc list-inside text-sm text-gray-300 space-y-1">
               <li>Federal + Arizona filing</li>
               <li>Includes W‑2, 1099, standard deductions</li>
@@ -25,7 +25,7 @@ export default function Pricing() {
 
           <div className="border border-gray-700 rounded bg-gray-800 p-6">
             <h3 className="text-xl font-semibold text-green-400 mb-2">Small Business (Schedule C)</h3>
-            <p className="text-gray-300 mb-2">Starting at <span className="text-white font-bold">$225</span></p>
+            <p className="text-gray-300 mb-2">Starting at <span className="text-white font-bold">$150</span></p>
             <ul className="list-disc list-inside text-sm text-gray-300 space-y-1">
               <li>Income/expense categorization</li>
               <li>Quarterly estimates optional</li>
@@ -35,7 +35,7 @@ export default function Pricing() {
 
           <div className="border border-gray-700 rounded bg-gray-800 p-6">
             <h3 className="text-xl font-semibold text-green-400 mb-2">Arizona TPT Filing</h3>
-            <p className="text-gray-300 mb-2">Flat rate <span className="text-white font-bold">$75</span> per filing</p>
+            <p className="text-gray-300 mb-2">Flat rate <span className="text-white font-bold">$25</span> per filing</p>
             <ul className="list-disc list-inside text-sm text-gray-300 space-y-1">
               <li>Monthly or quarterly</li>
               <li>Includes city and state reporting</li>
@@ -45,7 +45,7 @@ export default function Pricing() {
 
           <div className="border border-gray-700 rounded bg-gray-800 p-6">
             <h3 className="text-xl font-semibold text-green-400 mb-2">Penalty Abatement Support</h3>
-            <p className="text-gray-300 mb-2">Starting at <span className="text-white font-bold">$150</span></p>
+            <p className="text-gray-300 mb-2">Starting at <span className="text-white font-bold">$25</span></p>
             <ul className="list-disc list-inside text-sm text-gray-300 space-y-1">
               <li>Case review and documentation</li>
               <li>Submission preparation</li>

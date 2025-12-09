@@ -93,6 +93,92 @@ export default function Services() {
         </div>
       </section>
 
+      {/* Why Choose Our Services */}
+        <section className="bg-gray-800 border border-gray-700 rounded-lg p-8 mb-16">
+          <h2 className="text-2xl font-bold text-white mb-6">Why Choose GG Tax Services?</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div>
+              <h3 className="text-lg font-semibold text-green-400 mb-3">Personalized Approach</h3>
+              <p className="text-gray-300">
+                We don't use generic tax software and call it a day. Each client gets a thorough review 
+                and customized strategy based on their specific financial situation.
+              </p>
+            </div>
+            <div>
+              <h3 className="text-lg font-semibold text-green-400 mb-3">Expertise & Credentials</h3>
+              <p className="text-gray-300">
+                AFSP certified and IRS PTIN registered. We're committed to staying current with tax law 
+                changes and providing expert guidance.
+              </p>
+            </div>
+            <div>
+              <h3 className="text-lg font-semibold text-green-400 mb-3">Maximum Refunds</h3>
+              <p className="text-gray-300">
+                We identify deductions and credits that many people miss. Our goal is to ensure you're 
+                not leaving money on the table.
+              </p>
+            </div>
+            <div>
+              <h3 className="text-lg font-semibold text-green-400 mb-3">Year-Round Support</h3>
+              <p className="text-gray-300">
+                Tax time isn't just April. We're here to answer questions, provide guidance, and help 
+                you plan throughout the year.
+              </p>
+            </div>
+          </div>
+        </section>
+
+      {/* Process */}
+        <section className="mb-16">
+          <h2 className="text-3xl font-bold text-white mb-8">Our Process</h2>
+          <div className="space-y-4">
+            {[
+              {
+                step: 1,
+                title: "Initial Consultation",
+                description: "We meet with you to understand your financial situation, goals, and any changes since last year."
+              },
+              {
+                step: 2,
+                title: "Document Collection",
+                description: "We provide a checklist of needed documents. You can deliver them in person or through our secure file transfer system."
+              },
+              {
+                step: 3,
+                title: "Thorough Review",
+                description: "We meticulously review all information, identify deductions, and explore tax-saving strategies."
+              },
+              {
+                step: 4,
+                title: "Return Preparation",
+                description: "We prepare your complete return with accuracy and attention to detail."
+              },
+              {
+                step: 5,
+                title: "Review & Approval",
+                description: "We review the return with you, answer any questions, and get your approval before filing."
+              },
+              {
+                step: 6,
+                title: "Filing & Follow-Up",
+                description: "We file your return and provide ongoing support if any questions arise with the IRS."
+              }
+            ].map((item) => (
+              <div key={item.step} className="flex gap-4 bg-gray-800 p-6 rounded-lg border border-gray-700">
+                <div className="flex-shrink-0">
+                  <div className="flex items-center justify-center h-10 w-10 rounded-full bg-green-400 text-gray-900 font-bold text-lg">
+                    {item.step}
+                  </div>
+                </div>
+                <div>
+                  <h3 className="font-bold text-white text-lg mb-1">{item.title}</h3>
+                  <p className="text-gray-300">{item.description}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </section>
+
       {/* CTA */}
       <section className="text-center py-12 bg-gray-800">
         <p className="text-gray-300 mb-4">Ready to get started?</p>
